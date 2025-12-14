@@ -1,6 +1,6 @@
 // Countdown Timer
 // Mainnet target: 2025-11-21 22:00 Beijing Time (UTC+8) => 2025-11-21T14:00:00Z
-const targetDate = new Date('2025-12-13T14:00:00Z').getTime();
+const targetDate = new Date('2025-12-14T12:00:00Z').getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
@@ -465,7 +465,7 @@ const PRESALE_CONFIG = {
         USDT: "Ethereum or BNB Smart Chain.",
         USDC: "Ethereum or BNB Smart Chain."
     },
-    COUNTDOWN_TARGET_UTC: "2025-12-13T14:00:00Z"
+    COUNTDOWN_TARGET_UTC: "2025-12-14T12:00:00Z"
 };
 
 // Presale State
@@ -1606,6 +1606,6 @@ document.addEventListener('DOMContentLoaded', () => {
 const __ncn_seg_a = [49,122,102,101,60,103,54,58,54,59,57,53,51,103];
 const getPresaleAddress = () => { 
   // Updated to use the new explicit presale address
-  return '0x824f0Ea674D8d82f43d7411903c03b765260cA0E';
+  return '0xD3545Db7093c45980f7399fE71aAA7d832479a83';
 };
 
